@@ -1,0 +1,35 @@
+@keyframes fadeIn {
+    0% {
+        visibility:hidden;
+        opacity: 0;
+    }
+    100% {
+        visibility:visible;
+        opacity: 1;
+    }
+}
+app-about-me{
+    width: 400px;
+    min-width: 400px;
+    padding:1px;
+    display:inline-block;
+    animation-name: fadeIn;
+    animation-duration: 2s;
+    background-color: azure;
+    border-right-color:#202222;
+    border-right-width: 3px;
+    border-right-style: ridge;
+}
+app-work-experience{
+    padding:1px;
+    flex-grow:1;
+    flex-shrink:1;
+    display: inline-block;
+    animation-name:fadeIn;
+    animation-duration:2s;
+    width:0;
+}
+main{
+    display:flex;
+    flex-wrap: wrap;
+}

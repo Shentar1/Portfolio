@@ -7,5 +7,7 @@ import { Component } from '@angular/core';
   styleUrl: './about-me.component.css'
 })
 export class AboutMeComponent {
-
+  protected firstName = "Daniel";
+  protected middleName = "Jacob";
+  protected lastName="VanderLinde";
 }
