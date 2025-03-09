@@ -15,7 +15,6 @@ app-about-me{
     display:inline-block;
     animation-name: fadeIn;
     animation-duration: 2s;
-    background-color: azure;
     border-right-color:#202222;
     border-right-width: 3px;
     border-right-style: ridge;
