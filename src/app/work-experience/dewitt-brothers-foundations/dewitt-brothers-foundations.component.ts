@@ -8,4 +8,5 @@ import { Component } from '@angular/core';
 })
 export class DewittBrothersFoundationsComponent {
   protected heading = "Dewitt Bros. Foundations";
+  protected workType = "Construction - Concrete Foundations"
 }

@@ -8,4 +8,5 @@ import { Component } from '@angular/core';
 })
 export class WoodlandSupplyComponent {
   protected heading = "Woodland Supply"
+  protected workType = "Machining - Wood Products"
 }

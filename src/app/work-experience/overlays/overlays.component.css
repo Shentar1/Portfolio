@@ -1,8 +1,27 @@
 p{
-    height: 0;
+    display: inline;
+    height: fit-content;
+    width: 100%;
     overflow: hidden;
 }
 h3{
     margin: 0;
     line-height: 50px;
+    display: inline;
+}
+h6{
+    display: inline;
+    padding-left: 10px;
+    color:#888888
+}
+svg{
+    padding-right:5px;
+    align-self: flex-end;
+}
+div{
+    width:100%;
+    display: inline-flex;
+    justify-content: space-between;
+    height:50px;
+    
 }

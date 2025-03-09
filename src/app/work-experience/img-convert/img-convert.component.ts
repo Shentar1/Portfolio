@@ -8,4 +8,5 @@ import { Component } from '@angular/core';
 })
 export class ImgConvertComponent {
   protected heading = "imgConvert Project";
+  protected workType = "Programming - Single Page Application"
 }

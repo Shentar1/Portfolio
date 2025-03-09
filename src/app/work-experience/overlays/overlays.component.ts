@@ -8,4 +8,5 @@ import { Component } from '@angular/core';
 })
 export class OverlaysComponent {
   protected heading = "Overlays Project";
+  protected workType = "Programming - Graphical Overlay"
 }
