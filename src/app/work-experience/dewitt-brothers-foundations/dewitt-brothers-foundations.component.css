@@ -26,13 +26,10 @@ div{
 }
 #floodedBasement{
     float:right;
-    width: 200px;
+    width: 100px;
     height: auto;
 }
 #floodedBasement>figcaption{
     font-size:8px;
     color:#888888;
-}
-#workDescription{
-
 }
