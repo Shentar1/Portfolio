@@ -15,9 +15,13 @@ app-about-me{
     display:inline-block;
     animation-name: fadeIn;
     animation-duration: 2s;
-    border-right-color:#202222;
+    border-right-color:#808888;
     border-right-width: 3px;
     border-right-style: ridge;
+    border-bottom-color: #808888;
+    border-bottom-width: 2px;
+    border-bottom-style:ridge;
+    height:fit-content;
 }
 app-work-experience{
     padding:1px;

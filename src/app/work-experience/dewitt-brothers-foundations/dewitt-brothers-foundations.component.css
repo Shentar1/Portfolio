@@ -24,3 +24,15 @@ div{
     justify-content: space-between;
     height:50px;
 }
+#floodedBasement{
+    float:right;
+    width: 200px;
+    height: auto;
+}
+#floodedBasement>figcaption{
+    font-size:8px;
+    color:#888888;
+}
+#workDescription{
+
+}
