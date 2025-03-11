@@ -27,7 +27,7 @@ app-dewitt-brothers-foundations{
     display: inline-flex;
     flex-direction: column;
     width: 100%;
-    box-shadow: 1px 0px 0px 1px #606666, 1px 2px 2px 0px;
+    box-shadow: 1px 0px 0px 1px #606666, 2px 2px 2px 0px;
     height: 50px;
     overflow: hidden;
 }
