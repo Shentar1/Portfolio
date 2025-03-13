@@ -9,5 +9,35 @@
     </svg>
 </div>
 <span>
-
+    <p>
+        My most recent, and most difficult to date, project was this piece of image conversion software.
+        Built in Angular 19, I had many different needs to consider. My stakeholder needed a piece of software that would let her convert regular images of clip art 
+        that she had found into scalable vector graphics (.svg). While there were already tools out there that could perform this task, I thought I would also 
+        try figuring this problem out.
+    </p>
+    <br/>
+    <br/>
+    <p>
+        When considering the framework to use, I wanted to use a reasonably modern front-end framework so I could learn as much relevant knowledge as possible.
+        After a bit of research I settled on using Angular, and if necessary, I would support it with an express server for image processing. I had to weigh the 
+        benefits of providing all the code to the front-end, vs supported with a service (either local or remote), which ended up boiling down to how well I could 
+        get image processing to work whilst in the constraints of a browser window. In the end, I was able to provide a satisfactory level of performance without 
+        server support, so all the functionality is provided to the end user. An additional advantage was that security was much less of a concern. There weren't 
+        many vectors for malicious behaviour.
+    </p>
+    <br/>
+	<br/>
+	<a [href]="link">Check the service out here!</a>
 </span>
+
+<!--
+Program made to satisfy a need for image conversion for use with cricut hardware
+Program converts a common image format into a scalable vector graphic
+Image is selected from the end user's hard drive
+Preservation of image quality is not paramount, as it does not translate to the physical object
+<g></g> tags of the generated svg are considered image layers which can then be merged with other layers if needed
+When merging, the <path></path> tags are transferred to the next/previous <g></g> tag
+Layers can be reordered to change how any merges occur
+Layers that are deemed unnecessary can be deleted from the final image
+Final image can be saved to end user's hard drive
+-->

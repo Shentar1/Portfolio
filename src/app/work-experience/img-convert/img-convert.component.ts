@@ -7,6 +7,7 @@ import { Component } from '@angular/core';
   styleUrl: './img-convert.component.css'
 })
 export class ImgConvertComponent {
-  protected heading = "imgConvert Project";
+  protected heading = "imgConvert";
   protected workType = "Programming - Single Page Application"
+  protected link = 'https://Shentar1.github.io/imgConvert';
 }

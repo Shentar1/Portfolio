@@ -7,6 +7,7 @@ import { Component } from '@angular/core';
   styleUrl: './overlays.component.css'
 })
 export class OverlaysComponent {
-  protected heading = "Overlays Project";
+  protected heading = "Overlays";
   protected workType = "Programming - Graphical Overlay"
+  protected link = 'https://github.com/Shentar1/Overlays';  
 }
