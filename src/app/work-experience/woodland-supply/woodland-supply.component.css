@@ -5,12 +5,14 @@ p{
     overflow: hidden;
 }
 h3{
-    margin: 0;
+    margin: auto;
+    margin-left:0;
     line-height: 50px;
     display: inline;
 }
 h6{
-    display: inline-block;
+    margin:auto;
+    display: inline;
     padding-left: 10px;
     color:#888888
 }

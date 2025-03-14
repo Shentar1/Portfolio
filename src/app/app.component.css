@@ -9,8 +9,8 @@
     }
 }
 app-about-me{
-    width: 400px;
-    min-width: 400px;
+    max-width: 465px;
+    min-width: 300px;
     padding:1px;
     display:inline-block;
     animation-name: fadeIn;
@@ -22,6 +22,10 @@ app-about-me{
     border-bottom-width: 2px;
     border-bottom-style:ridge;
     height:fit-content;
+    flex-grow: 1;
+    flex-shrink:1;
+    margin-left:auto;
+    margin-right:auto;
 }
 app-work-experience{
     padding:1px;
@@ -30,8 +34,8 @@ app-work-experience{
     display: inline-block;
     animation-name:fadeIn;
     animation-duration:2s;
+    min-width: 300px;
     width:400px;
-    min-width: 400px;
 }
 main{
     display:flex;
