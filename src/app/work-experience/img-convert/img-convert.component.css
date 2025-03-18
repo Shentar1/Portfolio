@@ -18,6 +18,7 @@ h6{
 svg{
     padding-right:5px;
     padding-left:5px;
+    min-width: 50px;
     align-self: flex-end;
 }
 div{
